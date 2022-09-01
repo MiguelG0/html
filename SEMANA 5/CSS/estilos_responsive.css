@@ -10,11 +10,12 @@ html{
 body{
     font-family: Tahoma;
     font-size: 18px;
+    background-image: url(../img/natacion.jpeg);
 }
 /* seccion cabecera PC*/
 #header{
-    background-color: lightsteelblue;
-    border:2px solid blue;
+    background-color: burlywood;
+    border:2px solid teal;
     border-radius: 20px 20px 10px 10px;
     display: flex;
     flex-direction: row;/*dirección horizontal o en fila*/
@@ -35,13 +36,13 @@ li{
     font: bold 12px Verdana;
 }
 a{
-    color: white;
+    color: teal;
     text-decoration: none; /* quitar las lineas subrayadas*/
 }
 #menu{
     grid-area: nav;/* asigna nombre a contenedor*/
-    background-color: blue;
-    border:2px solid green;
+    background-color: burlywood;
+    border:2px solid teal;
     border-radius: 22px;
     display: flex;
     flex-direction:row;
@@ -70,8 +71,8 @@ a{
 /* seccion contenido */
 #main{
     grid-area: main;/* matricula nombre al contenedor section para grid*/
-    background-color: white;
-    border:2px solid green;
+    background-color: burlywood;
+    border:2px solid teal;
     /* se define ancho y altura contenedor para ajustar a vista a dispositivo actual*/
     max-width:100%;
     height: auto;
@@ -93,7 +94,7 @@ figure, figcaption{
     }
 
 section article{
-    background-color: lightcyan;
+    background-color: lightblue;
     width: 200px;
     margin: 20px;
     } 
@@ -115,8 +116,8 @@ iframe{
 /* seccion pie de pagina*/
 #footer{
     grid-area: footer;/* se asigna nombre a contenedor */
-    background-color: teal;
-    border:2px solid green;
+    background-color: burlywood;
+    border:2px solid teal;
     border-radius: 20px 20px 10px 10px;
     clear:both;
  }
@@ -166,12 +167,12 @@ iframe{
         font-size: 18px;
  }
  .fa-user{
-    color:white;
+    color:black;
     font-size: 18px;
  }
 /* estilos al buscador search */
 .fa-search{
-    color:white;
+    color: black;
     font-size: 18px;
 }
 /*iconos fontawesome BAR SOCIAL*/
@@ -199,7 +200,7 @@ iframe{
       }
 .fa-instagram{
     font-size: 32px;
-     background-color: orangered;
+     background-color:orchid;
       }
 /* ultimos cambios hechos a icono hamburgueza */
 .fa-bars{
