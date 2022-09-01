@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -86,4 +87,94 @@
           <footer>
   </body>
   </html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+    <title>LISTA Y FORMULARIO</title>
+</head>
+<body style="background-color: lightseagreen;">
+    <header>
+        <img src="./IMG/incap.jpeg" width="100" height="100" alt="incap">
+        <h1>LISTAS EN HTML</h1>
+        <h2>MENU NAVEGACION</h2>
+    </header>
+<nav>
+<ul>
+    <li type="disc" style="color:red ;">Home</li>
+    <li type="square">Productos</li>
+    <li type="circle">Servicios</li>
+    <li>Contacto</li>
+</ul>
+</nav>
+<section>
+    <!-- Method GET pasa los datos por la url, atraves de parametros// Method POST pasa los
+    datos de forma interna(no se ven) -->
+    <form action="datos.php" method="post">
+        <!-- seccion de marco de formulario -->
+        <fieldset>
+        <!-- seccion de ingreso de nombre -->
+        <label >Nombre completo:</label>
+        <input name="nombre" type="text" placeholder="Ingrese su nombre complejo" required="">
+        <br><br> 
+
+        <!-- seccion email -->
+        <label>E-mail:</label>
+        <input name="email" placeholder="Ingrese su email" required="">
+        <br><br>
+
+        <!-- seccion contraseña -->
+        <label>Contraseña</label>
+        <input name="contraseña" type="password" placeholder="Ingrese su contraseña"
+        requiered="">
+        <br><br>
+
+          <!-- seccion hobbies -->
+           <label> Selecciona tus hobbies:
+           </label>
+           <br>
+               <input name="cine" type="checkbox">Cine<br>
+               <input name="Lectura" type="checkbox">lectura<br>
+               <input name="Deporte" type="checkbox">Deporte<br>
+            <br>
+            <br>
+<hr>
+            <!-- Estado civil -->
+
+            <label>Estado civil:</label><br>
+                <input name="estcivil" type="radio" value="casado">Casado(a)<br>
+                <input name="estcivil" type="radio" value="soltero">Soltero(a)<br>
+                <input name="estcivil" type="radio" value="viudo">Viudo(a)<br>
+            <br>
+            <br>
+<hr>
+            <!-- Seleccionar opcion lista -->
+            <label>PROGRAMAS TECNICOS</label>
+            <select name="select">
+                <option>Seleccion programa...</option>
+                <option>Siatemas</option>
+                <option>Diseño gráfico</option>
+                <option>Contabilidad</option>
+            </select>
+            <br>
+            <br>
+            <label>Tu compentario</label><br>
+                 <textarea name="mensaje" rows="5" cols="40"></textarea>
+              </fieldset>
+              <br><br>
+              <!-- seccion de botones formulario submit : enviar datos cancel: borrar datos ingresados -->
+              <button type="submit">Enviar</button>
+              <button type="reset">Cancelar</button>
+              <br>
+              <br>
+              </form>
+          </section>
+              <!-- seccion de pie de pagina -->
+          <footer>
+  </body>
+  </html>
+>>>>>>> 3e001454b56a496de808e1a60da8f7cd101ecbc4
   <footer class="footer">&copy; MIGUEL GOMEZ</footer>
