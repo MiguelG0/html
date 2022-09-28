@@ -1,0 +1,32 @@
+@font-face {
+  font-family: milky coffee;
+  src: url(../fonts/milky_coffee.zip);
+
+}
+body {
+  font-family: milky coffee;
+  background-image: url(../img/valorant.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: azure;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    /* background: #f1f1f1; */
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+  }
